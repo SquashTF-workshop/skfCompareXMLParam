@@ -1,0 +1,42 @@
+<products>
+	<cpu>
+		<label>Intel i9-9900K</label>
+		<clockspeed>3.6</clockspeed>
+		<cores>8</cores>
+		<threads>16</threads>
+		<socket>LGA 1151</socket>
+		<price>600</price>
+	</cpu>
+	<cpu>
+		<label>AMD Ryzen 9 3900X</label>
+		<clockspeed>3.8</clockspeed>
+		<cores>12</cores>
+		<threads>24</threads>
+		<socket>AM4</socket>
+		<price>500</price>
+	</cpu>
+	<cpu>
+		<label>Intel i7-9700K</label>
+		<clockspeed>3.6</clockspeed>
+		<cores>8</cores>
+		<threads>8</threads>
+		<socket>LGA 1151</socket>
+		<price>445</price>
+	</cpu>
+	<cpu>
+		<label>AMD Ryzen 7 3800X</label>
+		<clockspeed>3.9</clockspeed>
+		<cores>8</cores>
+		<threads>16</threads>
+		<socket>AM4</socket>
+		<price>420</price>
+	</cpu>
+	<cpu>
+		<label>Intel i5-10500</label>
+		<clockspeed>3.1</clockspeed>
+		<cores>6</cores>
+		<threads>12</threads>
+		<socket>LGA 1200</socket>
+		<price>260</price>
+	</cpu>
+</products>
