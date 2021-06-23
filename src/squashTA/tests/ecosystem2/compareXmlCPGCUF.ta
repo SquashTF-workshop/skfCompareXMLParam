@@ -1,0 +1,11 @@
+METADATA :
+result : flexible
+subject : rawXml
+        : compare
+        : cpgcuf
+
+TEST :
+LOAD xml-resources/initial.xml AS initial_rsc
+LOAD xml-resources/expected-cpg-cuf.xml AS expected_rsc
+CONVERT expected_rsc TO file(param) USING context_script_params, context_global_params AS expected_conv
+ASSERT initial_rsc DOES contain THE expected_conv

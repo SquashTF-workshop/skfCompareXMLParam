@@ -1,0 +1,38 @@
+{
+  "test": [
+    {
+      "script": "ecosystem/compareXmlTSCUF.ta",
+      "id": "TestCase1",
+      "param": {
+        "TS_CUF_threads": "8"
+      }
+    },
+    {
+      "script": "ecosystem2/compareXmlCPGCUF.ta",
+      "id": "TestCase2",
+      "param": {
+        "randomParameter": "99999",
+        "CPG_CUF_clockspeed": "3.6"
+      }
+    },
+    {
+      "script": "compareXmlITCUF.ta",
+      "id": "TestCase3",
+      "param": {
+        "IT_CUF_socket": "LGA 1151"
+      }
+    },
+    {
+      "script": "compareXmlTCCUF.ta",
+      "id": "TestCase4"
+    },
+    {
+      "script": "compareXmlDataset.ta",
+      "id": "TestCase5"
+    }
+  ],
+  "param": {
+    "DS_label": "Intel i9-9900K",
+    "TC_CUF_price": "445"
+  }
+}

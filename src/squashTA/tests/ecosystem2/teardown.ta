@@ -1,0 +1,1 @@
+EXECUTE log WITH $(this is the start of the second ecosystem) USING $(logLevel:INFO) AS whatever
