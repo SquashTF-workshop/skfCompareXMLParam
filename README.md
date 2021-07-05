@@ -2,7 +2,8 @@ Ce projet SKF récupère des paramètres et les compare à un fichier XML prése
 
 Le résultat des tests dépendent donc de ce qui est envoyé.
 
-Ce projet est composé de 5 cas de test, chacune avec un type de paramètre attendu :
+Ce projet est composé de 10 cas de test, chacun avec un type de paramètre attendu. Ceux-ci sont réparti dans deux
+dossiers (globalscope/testscope) selon le type de paramètre attendu. Les tests suivants sont dupliqués par scope.
 
 ecosystem/compareXmlTSCUF.ta : Test présent dans un écosystème. Le setup.ta et teardown.ta sont juste des inscriptions
 dans les logs. Vérifie l'envoi de CUF au niveau des suites de test.
