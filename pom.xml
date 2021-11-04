@@ -95,6 +95,10 @@
                 <enabled>true</enabled>
             </releases>
         </pluginRepository>
+        <pluginRepository>
+            <id>SmartBearPluginRepository</id>
+            <url>https://rapi.tools.ops.smartbear.io/nexus/content/groups/public</url>
+        </pluginRepository>
     </pluginRepositories>
 
 </project>
